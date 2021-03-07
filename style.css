@@ -63,22 +63,19 @@
 {
     color: red;
 }
-.featurenews
-{
-    width: 65%;
-}
 @media (max-width: 1199px){
 
-    .featurenews
+    .featurenews img
     {
-        width: 100%;
+        max-width: 100%;
+        height: auto;
     }
 }
 
 .captionone
 {
     position: relative;
-    top: -100px;
+    top: -120px;
     left: 10px;
 }
 .captionone h3
@@ -94,6 +91,7 @@
 {
     color: #000000;
     font-size: small;
+    
 }
 .latestpost ul
 {
@@ -121,7 +119,7 @@
     margin-top: 20px;
     display: flex;
     padding: 0;
-    margin-inline: px;
+    
 }
 .posts img
 {
